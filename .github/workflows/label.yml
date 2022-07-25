@@ -20,3 +20,4 @@ jobs:
     - uses: jsoref/labeler@main
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        label-fork: true
